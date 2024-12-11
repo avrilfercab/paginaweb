@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="paper container">
+      <h1>TP #WEB FINAL</h1>
+     
+
+   
+      <div class="row">
+     
+        <div class="sm-12 md-6 lg-6 col">
+          <div class="card">
+            <img src="img/Imagen de WhatsApp 2024-12-01 a las 18.07.44_be660977.jpg" alt="Card example image" />
+            <div class="card-body">
+              <h4 class="card-title">JUEGO!</h4>
+              <p class="card-text">
+                ¡Butters ha enloquecido de poder y ha robado el auto de una vecina! Deberás manejar el vehículo por las calles de South Park y evitar que choque contra el resto de los conductores.
+              </p>
+              <div class="row flex-spaces child-borders">
+                <label class="paper-btn margin" for="modal-1">Ir al juego!</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+     
+        <div class="sm-12 md-6 lg-6 col">
+          <div class="card">
+            <img src="img/Captura de pantalla 2024-12-04 033838.png" alt="Card example image" />
+            <div class="card-body">
+              <h4 class="card-title">Aventura Gráfica</h4>
+              <p class="card-text">
+                Cartman intenta jugarle una broma pesada a Butters haciéndole creer que está utilizando un dispositivo de realidad virtual.
+              </p>
+              <div class="row flex-spaces child-borders">
+                <label class="paper-btn margin" for="modal-2">Ir a la aventura!</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+      <input class="modal-state" id="modal-1" type="checkbox">
+      <div class="modal">
+        <label class="modal-bg" for="modal-1"></label>
+        <div class="modal-body">
+          <label class="btn-close" for="modal-1">X</label>
+          <h4 class="modal-title">Juego</h4>
+          <iframe src="tpfinalparte2/index.html" frameborder="0" width="640" height="500"></iframe>
+          <p class="modal-text">¡Disfruta del juego y evita los choques!</p>
+        </div>
+      </div>
+
+    
+      <input class="modal-state" id="modal-2" type="checkbox">
+      <div class="modal">
+        <label class="modal-bg" for="modal-2"></label>
+        <div class="modal-body">
+          <label class="btn-close" for="modal-2">X</label>
+          <h4 class="modal-title">Aventura Gráfica</h4>
+          <iframe src="tpfinalparte1/index.html" frameborder="0" width="640" height="500"></iframe>
+          <p class="modal-text">Explora la broma de Cartman en esta aventura gráfica.</p>
+        </div>
+      </div>
+
+    
+      <div class="paper container-xs">
+        <div class="row">
+          <div class="collapsible">
+            <input id="collapsible1" type="checkbox" name="collapsible">
+            <label for="collapsible1">Informacion</label>
+            <div class="collapsible-body">
+              <span>
+                South Park es una serie animada estadounidense, creada por Trey Parker y Matt Stone que se transmite en Comedy Central y en varios otros canales en otros países. La serie comenzó en 1997 y está en su vigésima sexta temporada, con un total de 315 episodios en la actualidad, una película, 7 cortos y 2 especiales pandemicos.
+                Como fanaticas, nuestro trabajo busca honrar un poco a este programa que nos ha hecho reir tanto. Tanto el juego como la aventura grafica estan basados en el episodio 7 de la temporada 18 "Fundamentada en Vindaloop", uno de los campitulos favoritos de ambas.
+               
+                <img src="img/Captura de pantalla 2024-12-10 214226.png" alt="imagen souyh park" style="width: 400px; height: 220; display: block; margin: 0 auto;">
+             
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div> 
+  </body>
+</html>
